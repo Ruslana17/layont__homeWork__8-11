@@ -81,11 +81,12 @@ font-family: 'Raleway';
     line-height: 28px;
     text-transform: uppercase;
     color: white;
-    background-color: rgb(243, 101, 50);
+    background-color: rgb(224, 72, 16);
     border: none;
     outline: none;
 }
 .title__button:hover {
-    color: rgb(223, 233, 137);
+    color: rgb(0, 0, 0);
     cursor: pointer;
+     border-radius: 50px;
   }
