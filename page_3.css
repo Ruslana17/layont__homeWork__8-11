@@ -2,7 +2,7 @@
  max-width: 100%;
  min-height: 678px;
 display: flex;
-/*background-color: rgba(255, 67, 67, 0.8);*/
+
     flex-wrap: wrap;
 }
 .third_page_block_1, .third_page_block_2{
@@ -30,23 +30,35 @@ display: flex;
     position: absolute;
     width: 379px;
     min-height: 340px;
-    font-family: 'Raleway';
+    display: none;
+}
 
+.text__hover {
+    display: flex;
+    height: 340px;
+    width: 379px;
+    
+    font-family: 'Raleway';
     font-weight: 900;
     font-size: 24px;
     line-height: 28px;
     color: #FFFFFF;
-    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .picture:hover .picture__hover{
     opacity: .4;
     background-color: #FF4343 ;
     display: block;
+    color: #FFFFFF;
+    
 }
 
 .picture:active .picture__hover{
     opacity: 0.7;
     background-color: #B90C0C ;
     display: block;
+    color: #FFFFFF;
 }

@@ -17,14 +17,16 @@ a:visited{
         border-bottom: 1px solid #BABBC5;
         justify-content: space-between;
     }
+    
     .head__nav{
         display: flex;
         align-items: center;
     }
+
     .head__nav dt{
         display: flex;
-       
     }
+
     .head__nav dt dl{
     display: flex;
     margin: 0 20px;
