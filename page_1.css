@@ -4,6 +4,9 @@ a:visited{
     a:hover{
         color: #d1cccc;
     }
+    ul li{
+        list-style-type:none
+    }
     .first__page{
         width: 100%;
       background: url('./img/background_page_1.jpg') center/cover no-repeat;
@@ -47,6 +50,71 @@ a:visited{
       right: 7%;
       width: 24px;
     }
+
+    .head__nav__absolute :active {
+        display: block;
+    }
+    .head__nav__absolute{
+        display: none;
+    }
+
+    
+    
+    
+    .burger__menu {
+        position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 70%;
+    background-color: #2C3154;
+   
+    transform: translateX(0vw);
+    transition: all 0.2s;
+    padding: 2.5em;
+    display: none;
+    flex-direction: column;
+    }
+    
+    .burger__close {
+        font-size: 24px;
+        color: #FFFFFF;
+        font-weight: 700;
+        display: block;
+        align-self: flex-end;
+        cursor: pointer;
+    }
+    
+   
+    
+    .burger__menu-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        list-style: none;
+        height: 50vh;
+    }
+    
+    .burger__menu-link {
+        color: #FFFFFF;
+        font-weight: 700;
+        font-size: 1rem;
+        line-height: 15px;
+        text-transform: uppercase;
+    }
+    
+  
+    .head__nav__absolute:active .burger__menu {
+
+        display: block;
+    }
+    
+    
+    .burger__close:active .burger__menu{
+        display: none;
+    }
+   
     .title{
         display: flex;
         flex-direction: column;
@@ -103,12 +171,12 @@ a:visited{
           
       }
 
-    @media(max-width:904px){
+    /*@media(max-width:904px){
         {
 
         }
     }
-
+*/
     @media(max-width:835px){
         .header__block{
             justify-content: space-evenly;
@@ -137,5 +205,6 @@ a:visited{
           .head__nav dt dl{
               display: none;
           }
+
     }
     
