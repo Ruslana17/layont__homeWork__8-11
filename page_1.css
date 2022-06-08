@@ -114,6 +114,8 @@ a:visited{
     .burger__close:active .burger__menu{
         display: none;
     }
+
+
    
     .title{
         display: flex;

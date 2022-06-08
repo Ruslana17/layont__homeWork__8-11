@@ -1,0 +1,64 @@
+.fourth-page__main{
+margin: 0 auto;
+max-width: 1170px;
+height: 619px;
+display: flex;
+margin-top: 114px;
+}
+.card{
+width: 270px;
+height: 619px;
+display: flex;
+margin-right: 30px;
+flex-direction: column;
+
+}
+.data-scientist{
+    margin: 0%;
+}
+.card_img{
+    width: 270px;
+    height: 270px;
+}
+.card h4{
+margin: 5% 0 0 ;
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+display: flex;
+align-items: center;
+text-transform: capitalize;
+
+color: #2D3033;
+}
+.card h5{
+    font-family: 'Raleway';
+    margin:  2%  0 5% ;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+text-transform: uppercase;
+
+color: #FF4343;
+}
+.card p{
+    font-family: 'Raleway';
+
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+
+color: #6C7279;
+}
+.card_icons{
+    padding-top: 13%;
+}
+.card_icons> img:hover{
+background-color: #83abeb;
+cursor: pointer;
+}
