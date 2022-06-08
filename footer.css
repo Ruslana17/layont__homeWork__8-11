@@ -1,0 +1,50 @@
+.footer{
+    width: 100%;
+    display: flex;
+    background-color: #353C65;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #FFFFFF;
+    align-content: center;
+    
+}
+.footer span{
+display: flex;
+align-content: center;
+align-items: center;
+}
+.footer_description{
+    width: 100%;
+    background-color: #2C3154;
+}
+.location{
+    width: 370px;
+align-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.share{
+    width: 370px;
+    flex-direction: column;
+}
+
+.share h5{
+    margin-bottom:12%; 
+}
+
+.share_img img{
+    width: 37px;
+    height: 37px;
+    margin-right: 2%;
+}
+
+.share_img img:hover{
+background-color: #7687e8;
+}
+
+.About-ActiveBox{
+    width: 370px;
+    flex-direction: column;
+}
