@@ -112,6 +112,7 @@ margin-bottom: 9%;
 }
 
 .download > button:hover{
-    background-color: #fd5353;
+    background-color: #f53939;
     cursor: pointer;
+    color:rgb(213, 211, 211);
 }

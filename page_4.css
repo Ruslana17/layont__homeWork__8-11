@@ -1,9 +1,9 @@
 .fourth-page__main{
-margin: 0 auto;
-max-width: 1170px;
-height: 619px;
-display: flex;
-margin-top: 114px;
+    width: 100%;
+    height: 619px;
+    display: flex;
+    margin-top: 114px;
+    justify-content: center;
 }
 .card{
 width: 270px;

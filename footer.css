@@ -37,14 +37,28 @@ flex-direction: column;
 .share_img img{
     width: 37px;
     height: 37px;
-    margin-right: 2%;
 }
 
 .share_img img:hover{
 background-color: #7687e8;
+cursor: pointer;
 }
 
 .About-ActiveBox{
     width: 370px;
     flex-direction: column;
+}
+
+.location > h5, .share > h5, .About-ActiveBox > h5{
+    font-family: 'Raleway';
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+}
+.location > h4, .share > h4, .About-ActiveBox > h4{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
 }
