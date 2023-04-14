@@ -6,8 +6,8 @@
     flex-wrap: wrap;
 }
 .card{
-width: 270px;
-height: 619px;
+width: 25vw;
+height: 54vw;
 display: flex;
 margin-right: 30px;
 flex-direction: column;
